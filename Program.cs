@@ -1,4 +1,5 @@
-﻿void Palindrom ()
+﻿// Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+void Palindrom ()
 {
 Console.WriteLine("Введите пятизначное число");
 int palifive = Convert.ToInt32(Console.ReadLine());
@@ -25,7 +26,7 @@ else
 // Palindrom();
 
 
-
+// Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 void treede ()
 {
 Console.WriteLine("Введите координату точки А по оси X");
@@ -45,5 +46,21 @@ int y = ay-by;
 int z = az-bz;
 double length = Math.Sqrt(x * x + y * y + z * z);
 Console.WriteLine($"Длина отрезка {length}");}
-treede ();
+// treede ();
 
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+void cubinez ()
+
+{
+  Console.WriteLine("Введите любое число:");
+    int number  = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 1; i <= number; i++)
+{ 
+    Console.Write($"{i*i*i} ");
+}
+}
+
+// Palindrom();
+// treede ();
+// cubinez ();
